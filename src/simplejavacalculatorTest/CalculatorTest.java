@@ -104,6 +104,7 @@ class CalculatorTest {
 	}
 	
 	@Test
+	//This is a valid test
 	void CalculateMonoRateTest() {
 		Calculator calculator = new Calculator();
 		Assertions.assertEquals(.75, calculator.calculateMono(Calculator.MonoOperatorModes.rate, 75.0));
